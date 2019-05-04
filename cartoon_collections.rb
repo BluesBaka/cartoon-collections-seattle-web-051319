@@ -26,6 +26,7 @@ def find_the_cheese(snacks)# code an argument here
         end
         if cheese_types.exclude?(snack)
           return nil
+        end
       end
 
     end
