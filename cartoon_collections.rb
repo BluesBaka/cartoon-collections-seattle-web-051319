@@ -20,6 +20,4 @@ end
 def find_the_cheese(snacks)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-      find_the_cheese = snacks.include?(cheese_types)
-      find_the_cheese
-end
+      snacks.include?(cheese_types)
